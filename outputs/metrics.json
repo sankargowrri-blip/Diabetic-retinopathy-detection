@@ -1,0 +1,20 @@
+{
+  "test_accuracy": 0.5542168674698795,
+  "test_loss": 1.068432092666626,
+  "macro_precision": 0.41820054945054946,
+  "macro_recall": 0.414074074074074,
+  "macro_f1": 0.4140758676351897,
+  "test_image_count": 83,
+  "image_size": 224,
+  "class_names": [
+    "No Diabetic Retinopathy",
+    "Mild",
+    "Moderate",
+    "Severe",
+    "Proliferative Diabetic Retinopathy"
+  ],
+  "model_architecture": "MobileNetV2 pretrained on ImageNet with fine-tuning",
+  "normalization": "input images are scaled to [0, 1]; model rescales to [-1, 1]",
+  "comparison_file": "model_comparison.json",
+  "split_seed": 42
+}

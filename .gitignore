@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit and test caches
+.streamlit/secrets.toml
+.pytest_cache/
+.coverage
+
+# Keep the small labels CSV, but never publish the full image dataset.
+/archive/
+dataset/*
+!dataset/idrid_labels.csv
+!dataset/images/
+dataset/images/*
+!dataset/images/.gitkeep
+
+# Generated evaluation outputs; these are created by training.
+outputs/*
+!outputs/.gitkeep
+!outputs/metrics.json
+!outputs/classification_report.txt
+!outputs/baseline_classification_report.txt
+!outputs/accuracy.png
+!outputs/loss.png
+!outputs/confusion_matrix.png
+!outputs/baseline_confusion_matrix.png
+!outputs/model_comparison.json

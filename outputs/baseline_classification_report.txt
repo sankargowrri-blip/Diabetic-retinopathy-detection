@@ -1,0 +1,11 @@
+                                    precision    recall  f1-score   support
+
+           No Diabetic Retinopathy       0.50      0.30      0.37        27
+                              Mild       0.00      0.00      0.00         4
+                          Moderate       0.00      0.00      0.00        27
+                            Severe       0.00      0.00      0.00        15
+Proliferative Diabetic Retinopathy       0.10      0.70      0.18        10
+
+                          accuracy                           0.18        83
+                         macro avg       0.12      0.20      0.11        83
+                      weighted avg       0.18      0.18      0.14        83
