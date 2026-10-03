@@ -15,7 +15,6 @@ grades and provides a Streamlit interface for trying a trained model.
 app.py                      Streamlit application
 train.py                    Dataset validation, CNN training, and test evaluation
 requirements.txt             Pinned Python dependencies
-packages.txt                 Streamlit Cloud system packages (none required)
 dataset/idrid_labels.csv     Diagnosis labels (ensure attribution when sharing)
 dataset/images/              Place local IDRiD images here, including subfolders
 /archive/                     Local extracted source archive; ignored by Git
